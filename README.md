@@ -2,13 +2,20 @@
 # Imhotep, the peaceful builder.
 
 [![Build Status](https://travis-ci.org/justinabrahms/imhotep.png?branch=master)](https://travis-ci.org/justinabrahms/imhotep)
-[![Coverage Status](https://coveralls.io/repos/justinabrahms/imhotep/badge.png?branch=master)](https://coveralls.io/r/justinabrahms/imhotep?branch=master)
+[![codecov.io](http://codecov.io/github/justinabrahms/imhotep/coverage.svg?branch=master)](http://codecov.io/github/justinabrahms/imhotep?branch=master)
 [![Requirements Status](https://requires.io/github/justinabrahms/imhotep/requirements.png?branch=master)](https://requires.io/github/justinabrahms/imhotep/requirements/?branch=master)
 
 ## What is it?
 Imhotep is a tool which will comment on commits coming into your
 repository and check for syntactic errors and general lint
-warnings. 
+warnings.
+
+## Want a hosted version?
+
+There's a hosted version of this at
+[https://betterdiff.com](https://betterdiff.com) with an actual support
+team, etc. If your company is interested in imhotep, consider checking
+it out.
 
 ## Installation
 
