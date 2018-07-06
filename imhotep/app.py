@@ -19,8 +19,11 @@ log = logging.getLogger(__name__)
 
 def run(cmd, cwd='.'):
     log.debug("Running: %s", cmd)
-    return subprocess.Popen(
+    stdout = subprocess.Popen(
         [cmd], stdout=subprocess.PIPE, shell=True, cwd=cwd).communicate()[0]
+    if isinstance(stdout, bytes):
+        return stdout.decode()
+    return stdout
 
 
 def find_config(dirname, config_filenames):
